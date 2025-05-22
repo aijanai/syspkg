@@ -25,7 +25,7 @@ import (
 	"github.com/bluet/syspkg/manager/apt"
 	"github.com/bluet/syspkg/manager/flatpak"
 	"github.com/bluet/syspkg/manager/snap"
-	"github.com/bluet/syspkg/manager/yum"
+  "github.com/bluet/syspkg/manager/yum"
 	// "github.com/bluet/syspkg/zypper"
 	// "github.com/bluet/syspkg/dnf"
 	// "github.com/bluet/syspkg/apk"
