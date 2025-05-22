@@ -20,7 +20,7 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/bluet/syspkg/manager"
+	"github.com/aijanai/syspkg/manager"
 )
 
 var pm string = "snap"

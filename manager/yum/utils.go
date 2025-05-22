@@ -6,7 +6,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/bluet/syspkg/manager"
+	"github.com/aijanai/syspkg/manager"
 )
 
 // ParseFindOutput parses the output of `yum search packageName` command

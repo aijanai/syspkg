@@ -5,8 +5,8 @@ import (
 	"log"
 	"testing"
 
-	"github.com/bluet/syspkg"
-	"github.com/bluet/syspkg/osinfo"
+	"github.com/aijanai/syspkg"
+	"github.com/aijanai/syspkg/osinfo"
 )
 
 func TestNewPackageManager(t *testing.T) {

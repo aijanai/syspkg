@@ -1,4 +1,4 @@
-module github.com/bluet/syspkg
+module github.com/aijanai/syspkg
 
 go 1.21
 

@@ -1,8 +1,8 @@
 # SysPkg
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/bluet/syspkg.svg)](https://pkg.go.dev/github.com/bluet/syspkg)
-[![Go Report Card](https://goreportcard.com/badge/github.com/bluet/syspkg)](https://goreportcard.com/report/github.com/bluet/syspkg)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/bluet/syspkg/blob/main/LICENSE)
+[![Go Reference](https://pkg.go.dev/badge/github.com/aijanai/syspkg.svg)](https://pkg.go.dev/github.com/aijanai/syspkg)
+[![Go Report Card](https://goreportcard.com/badge/github.com/aijanai/syspkg)](https://goreportcard.com/report/github.com/aijanai/syspkg)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/aijanai/syspkg/blob/main/LICENSE)
 
 SysPkg is a unified CLI tool and Golang library for managing system packages across different package managers (apt, snap, flatpak, yum, dnf, and more). It simplifies the process of working with various package managers by providing a consistent interface and API through an abstraction layer.
 
@@ -15,7 +15,7 @@ SysPkg is a unified CLI tool and Golang library for managing system packages acr
 
 ## API Documentation
 
-See the [Go Reference](https://pkg.go.dev/github.com/bluet/syspkg) for the full API documentation.
+See the [Go Reference](https://pkg.go.dev/github.com/aijanai/syspkg) for the full API documentation.
 
 ## Getting Started
 
@@ -28,7 +28,7 @@ See the [Go Reference](https://pkg.go.dev/github.com/bluet/syspkg) for the full 
 Install the CLI tool using the `go install` command:
 
 ```bash
-go install github.com/bluet/syspkg/cmd/syspkg@latest
+go install github.com/aijanai/syspkg/cmd/syspkg@latest
 ```
 
 ### Installation (as Go library)
@@ -36,7 +36,7 @@ go install github.com/bluet/syspkg/cmd/syspkg@latest
 Install the library using the `go get` command:
 
 ```bash
-go get github.com/bluet/syspkg
+go get github.com/aijanai/syspkg
 ```
 
 ## Usage
@@ -88,7 +88,7 @@ package main
 
 import (
  "fmt"
- "github.com/bluet/syspkg"
+ "github.com/aijanai/syspkg"
 )
 
 func main() {

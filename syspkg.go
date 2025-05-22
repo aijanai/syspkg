@@ -21,14 +21,14 @@ import (
 	"errors"
 	"log"
 
-	"github.com/bluet/syspkg/manager"
-	"github.com/bluet/syspkg/manager/apt"
-	"github.com/bluet/syspkg/manager/flatpak"
-	"github.com/bluet/syspkg/manager/snap"
-  "github.com/bluet/syspkg/manager/yum"
-	// "github.com/bluet/syspkg/zypper"
-	// "github.com/bluet/syspkg/dnf"
-	// "github.com/bluet/syspkg/apk"
+	"github.com/aijanai/syspkg/manager"
+	"github.com/aijanai/syspkg/manager/apt"
+	"github.com/aijanai/syspkg/manager/flatpak"
+	"github.com/aijanai/syspkg/manager/snap"
+  "github.com/aijanai/syspkg/manager/yum"
+	// "github.com/aijanai/syspkg/zypper"
+	// "github.com/aijanai/syspkg/dnf"
+	// "github.com/aijanai/syspkg/apk"
 )
 
 // PackageInfo represents a package's information.

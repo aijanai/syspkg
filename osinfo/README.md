@@ -4,10 +4,10 @@ Go SysPkg is a library that provides system package management and operating sys
 
 ## Installation
 
-To install the `github.com/bluet/syspkg/osinfo` package, use the following command:
+To install the `github.com/aijanai/syspkg/osinfo` package, use the following command:
 
 ```bash
-go get github.com/bluet/syspkg/osinfo
+go get github.com/aijanai/syspkg/osinfo
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ To use the `osinfo` package, you need to import it into your Go program:
 
 ```go
 import (
- "github.com/bluet/syspkg/osinfo"
+ "github.com/aijanai/syspkg/osinfo"
 )
 ```
 
@@ -36,7 +36,7 @@ package main
 
 import (
  "fmt"
- "github.com/bluet/syspkg/osinfo"
+ "github.com/aijanai/syspkg/osinfo"
 )
 
 func main() {

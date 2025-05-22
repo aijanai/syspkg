@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/bluet/syspkg/manager"
+	"github.com/aijanai/syspkg/manager"
 )
 
 // ParseInstallOutput parses the output of `snap install` command
@@ -164,11 +164,11 @@ func ParsePackageInfoOutput(msg string, opts *manager.Options) manager.PackageIn
 // and returns a list of PackageInfo
 //
 // Example msg:
-// bluet@ocisly:~/workspace/go-syspkg$ snap refresh --list
+// aijanai@ocisly:~/workspace/go-syspkg$ snap refresh --list
 // Name             Version                     Rev   Size   Publisher   Notes
 // firefox          112.0.1-1                   2579  253MB  mozilla✓    -
 // gnome-3-28-1804  3.28.0-19-g98f9e67.98f9e67  198   172MB  canonical✓  -
-// bluet@ocisly:~/workspace/go-syspkg$ snap list|grep firefox
+// aijanai@ocisly:~/workspace/go-syspkg$ snap list|grep firefox
 // firefox                         112.0-2                     2559   latest/stable    mozilla**               -
 func ParseListUpgradableOutput(msg string, opts *manager.Options) []manager.PackageInfo {
 	return ParseListOutput(msg, opts)
